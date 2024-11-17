@@ -1,0 +1,16 @@
+#resume {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50vw;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#resume iframe {
+    display: flex;
+    width: 75vh;
+    height: 75vh;
+    border: none;
+}

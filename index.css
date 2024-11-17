@@ -1,151 +1,21 @@
 body {
     background-color: black;
-    font-family: "Press Start 2P", cursive, sans-serif
+    font-family: "Monaco", sans-serif
 }
 
 #headers a {
     font-size: 0.5em;
     color: white;
     text-decoration: none;
-}
-
-#home h1 {
-    color: white;
-    text-align: center;
-}
-
-#home h2 {
-    color: white;
-    text-align: center;
+    padding: 0px;
 }
 
 p {
-    font-size: 0.5em;
+    font-size: 1em;
     color: white;
     text-align: left;
     padding: 5px;
     line-height: 1.8;
-}
-
-#home {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 50vw;
-    padding: 20px;
-    margin: 0 auto;
-}
-
-#socials {
-    width: 10%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10vh;
-    padding-top: 10px;
-}
-
-#socials img {
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
-    height: auto;
-}
-
-.socials-container {
-    width: 5vh;                
-    height: 5vh;               
-    overflow: hidden;        
-}
-
-#about {
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-    width: 50vw;
-    margin: 0 auto;
-}
-
-#aboutcontent {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-}
-
-.project-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-}
-
-.project-section h1 {
-    font-size: 0.75em;
-    margin-bottom: 10px;
-    text-decoration: underline;
-    color: white;
-}
-
-.project-section p {
-    font-size: 0.1em;
-    color: white;
-    width: 100%;
-    line-height: 1.8;
-}
-
-#soundamplifier, #follower{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-#soundamplifier video, #follower video {
-    width: 25vw;
-    height: 25vw;
-}
-
-#gforce, #bvb {
-    max-width: 100vw;
-    max-height: 100vw;
-    justify-content: center;
-    align-items: center;
-}
-
-#gimages, #beachimages {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 5vw;
-}
-
-#gforce img, #beachimages img {
-    width: 25%;
-    height: 30vh;
-}
-
-#resume {
-    display: none;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 50vw;
-    padding: 20px;
-    margin: 0 auto;
-}
-
-#resume iframe {
-    display: flex;
-    width: 75vh;
-    height: 75vh;
-    border: none;
 }
 
 #extra {
@@ -154,36 +24,4 @@ p {
     justify-content: flex-start;
     align-items: center;
     margin: 0 auto;
-}
-
-#home img {
-    max-width: 50vh;
-    max-height: auto;
-}
-
-#slideshow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    max-width: 100vw;
-    max-height: 100vw; 
-    aspect-ratio: 1/1;
-    overflow: hidden;
-}
-
-#slideshow img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
 }

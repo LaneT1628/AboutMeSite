@@ -7,6 +7,9 @@
 
     <title>Lane's Website</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="resume.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
 </head>
 
@@ -20,14 +23,18 @@
         </div>
         
         <section id="home">
-            <div id="homeheadings">
-                <h1>Lane Turner</h1>
-                <h2>Software Engineer</h2>
+            <h1>Lane Turner</h1>   
+            <div class="typewriter">
+                <h1><span class="auto-type"></span></h1>
             </div>
             <div id="slideshow">
                 <img class="fade" src="Images/IMG_1764.HEIC">
                 <img class="fade" src="Images/IMG_4234.HEIC">
-                <img class = "fade" src="Images/IMG_1446.HEIC">
+                <img class="fade" src="Images/IMG_1446.HEIC">
+                <img class="fade" src="Images/tiki.HEIC">
+                <img class="fade" src="Images/grad.HEIC">
+                <img class="fade" src="Images/grass.HEIC">
+                <img class="fade" src="Images/boat.HEIC">
             </div>
             <div id="socials">
                 <a href="https://www.linkedin.com/in/lane-turner-845b26191/">
@@ -125,5 +132,20 @@
         </section>
     </div>
     <script src="index.js"></script>
+
+    <!-- Auto Typing Open Source -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation -->
+    <script>
+        var typed = new Typed('.auto-type', {
+        strings: ['Computer Engineer', 'Developer', 'Athlete', 'Friend', 'Teammate'],
+        typeSpeed: 100,
+        backspeed: 100,
+        loop: true,
+        showCursor: false
+        });
+    </script>
+</body>
 </body>
 </html>

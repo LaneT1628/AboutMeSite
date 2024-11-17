@@ -1,0 +1,72 @@
+#about {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50vw;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#aboutcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.project-section h1 {
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: white;
+    padding-bottom: 0.1vh;
+    margin: 0.5vh;
+}
+
+.project-section p {
+    width: 100%;
+    padding-top: 0px;
+    margin: 0.5vh;
+}
+
+#soundamplifier video, #follower video {
+    width: 25vw;
+    height: 25vw;
+}
+
+#gforce, #bvb {
+    max-width: 100vw;
+    max-height: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#gimages, #beachimages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+#gforce img, #beachimages img {
+    width: 25%;
+    height: 30vh;
+}
+
+#soundamplifier, #follower{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

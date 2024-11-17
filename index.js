@@ -1,4 +1,3 @@
-// Global variable to track the currently selected section
 let currentlyClickedLink = null;
 
 function showSection(sectionId, clickedLink) {
@@ -26,6 +25,7 @@ function showSection(sectionId, clickedLink) {
     currentlyClickedLink  = clickedLink;
 }
 
+// This runs it once in order to set the currently clicked one to home
 document.addEventListener('DOMContentLoaded', () => {
     const homeLink = document.getElementById('homebutton');
     currentlyClickedLink = homeLink;
@@ -66,5 +66,5 @@ function showSlides() {
         slideIndex = 1
     }
     slides[slideIndex-1].style.display = "flex";
-    setTimeout(showSlides, 5000); // Change image every 5 seconds
+    setTimeout(showSlides, 5000);
 }
