@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- This is an important line for responsive web design, setting the width to be the device's width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lane's Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+</head>
+
+<body>
+    <div id="mainsite">
+        <div id="headers">
+            <a id="homebutton" href="#home" onclick="showSection('home', this)">Home</a>
+            <a href="#about" onclick="showSection('about', this)">About</a>
+            <a href="#resume" onclick="showSection('resume', this)">Resume</a>
+            <a href="#extra" onclick="showSection('extra', this)">Extra</a>
+        </div>
+        
+        <section id="home">
+            <div id="homeheadings">
+                <h1>Lane Turner</h1>
+                <h2>Software Engineer</h2>
+            </div>
+            <div id="slideshow">
+                <img class="fade" src="Images/IMG_1764.HEIC">
+                <img class="fade" src="Images/IMG_4234.HEIC">
+                <img class = "fade" src="Images/IMG_1446.HEIC">
+            </div>
+            <div id="socials">
+                <a href="https://www.linkedin.com/in/lane-turner-845b26191/">
+                    <div class="socials-container">
+                        <img src="Images/In-Blue-Logo.png.original.png">
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/laneturner2816/">
+                    <div class="socials-container">
+                        <img src="Images/Instagram_Glyph_Gradient.png">
+                    </div>
+                </a>
+            </div>
+            <p>Currently, I'm a Software Engineer 2 for Alarm.com.
+                I'm a backend engineer, so I don't get to work on anything 
+                front-end very often. I've always wanted to make a website,
+                and even though it's a bit rough around the edges. It's a work
+                in progress, and I'll be able to build on it for years to come!
+                Feel free to check out my socials above!
+            </p>
+        </section>
+
+        <section id="about">
+            <div id="aboutcontent">
+                <div class="project-section">
+                    <h1 class="tocheading">Academic Projects</h1>
+                    <p>1. Peak Detector</p>
+                    <div id="soundamplifier">
+                        <video controls="controls">
+                            <source src="Files/soundamplifier.mov">
+                        </video>
+                        <p>
+                            Above is a Peak Detector that monitors the bass and 
+                            treble of songs, and uses them to flash two LED's!
+                            The green one is for treble and red is for bass. This
+                            project included: Sallen Key Filters, a Summing Amplifier
+                            and Peak Detectors!
+                        </p>
+                    </div>
+                    <p>2. Robot Line Follower</p>
+                    <div id="follower">
+                        <video controls="controls">
+                            <source src="Files/linefollower.mov">
+                        </video>
+                        <p>This video is a clipped version of the demonstration I did
+                            for the line follower! It utilized a microcontroller and
+                            C register level code to complete these tasks with a Finite
+                            State Machine.
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="project-section">
+                    <h1 class="tocheading">Personal Projects</h1>
+                    <p>1. Arduino G-Force Sensor</p>
+                    <div id="gforce">
+                        <div id="gimages">
+                            <img src="Images/GForceOne.HEIC">
+                            <img src="Images/GForceTwo.HEIC">
+                        </div>
+                        <p>I made an Arduion G-Force sensor for my car using a BLE Sense.
+                            The buttons made it such that it had different settings/possibilities,
+                            a "high-score", and some other metrics!
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="project-section">
+                    <h1 class="tocheading">Beach Volleyball</h1>
+                    <div id="bvb">
+                        <p>I'm an avid beach volleyball player. Ranging from tournaments in Virginia
+                            Beach to Wilmington, to playing actively at the DC Sand courts by the Lincoln
+                            Memorial. Love being outside in the sun and constantly am trying to play as
+                            much as I can!
+                        </p>
+                        <div id="beachimages">
+                            <img src="Images/IMG_5212.heic">
+                            <img src="Images/IMG_4423.HEIC">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume">
+            <div id="fileresume">
+                <iframe src="Files/Resume11_14_24-2.pdf" type="application/pdf"></iframe>
+            </div>
+        </section>
+
+        <section id="extra">
+            <div id="extraheadings">
+                <h2>To Be Continued...</h2>
+            </div>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
