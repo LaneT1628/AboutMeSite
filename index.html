@@ -14,12 +14,13 @@
 </head>
 
 <body>
-    <div id="mainsite">
+    <div id="topofpage"></div>
+    <div id="mainsite">    
         <div id="headers">
-            <a id="homebutton" href="#home" onclick="showSection('home', this)">Home</a>
-            <a href="#about" onclick="showSection('about', this)">About</a>
-            <a href="#resume" onclick="showSection('resume', this)">Resume</a>
-            <a href="#extra" onclick="showSection('extra', this)">Extra</a>
+            <a id="homebutton" href="#topofpage" onclick="showSection('home', this)">Home</a>
+            <a href="#topofpage" onclick="showSection('about', this)">About</a>
+            <a href="#topofpage" onclick="showSection('resume', this)">Resume</a>
+            <a href="#topofpage" onclick="showSection('extra', this)">Extra</a>
         </div>
         
         <section id="home">
@@ -136,7 +137,7 @@
     <!-- Auto Typing Open Source -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-  <!-- Setup and start animation -->
+    <!-- Setup and start animation -->
     <script>
         var typed = new Typed('.auto-type', {
         strings: ['Computer Engineer', 'Developer', 'Athlete', 'Friend', 'Teammate'],
